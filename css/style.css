@@ -25,6 +25,15 @@
     color: #333;
     margin-bottom: 40px;
   }
+  @media (max-width: 768px) {
+       .container-header {
+		    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); padding: 10px;
+		    font-size: 22px;
+		    font-weight: 700;
+		    color: #333;
+		    margin-bottom: 40px;
+		  } 
+  }
   .navbar {
       transition: all 0.3s ease-in-out;
     }
@@ -326,7 +335,7 @@
   /* Mobile responsiveness */
   @media (max-width: 768px) {
     .hero-section {
-      height: 60vh; /* Adjust height for smaller screens */
+      height: 100vh; /* Adjust height for smaller screens */
     }
     .hero-logo {
 	    max-width: 100px; /* Adjust size as needed */

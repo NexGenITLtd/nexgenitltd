@@ -324,7 +324,7 @@
 
   /* Mobile responsiveness */
   @media (max-width: 768px) {
-    hero-section {
+    .hero-section {
       height: 60vh; /* Adjust height for smaller screens */
     }
     .hero-text {

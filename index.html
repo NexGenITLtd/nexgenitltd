@@ -324,31 +324,47 @@
         <h2 class="text-center container-header mb-5">Our Clients</h2>
         <div class="clients-wrapper">
           <div class="row clients-container">
-            <?php
-            $clients = [
-              ['name' => 'Shikor', 'image' => 'shikor.png'],
-              ['name' => 'Ullah House', 'image' => 'ullah house.png'],
-              ['name' => 'Comfort Muslims', 'image' => 'comfort muslims.png'],
-              ['name' => 'Zaka Merchants BD', 'image' => 'zaka merchants bd.png'],
-              ['name' => 'Merrono Shop', 'image' => 'merrono shop.png'],
-              ['name' => 'Green Leather', 'image' => 'green leather.png'],
-              ['name' => 'Victory Trust Fashion', 'image' => 'victory trust fashion.jpg'],
-              ['name' => 'Toy & Homeware', 'image' => 'toy and homeware.png'],
-              ['name' => 'Shakil Motors BD', 'image' => 'shakil motors bd.png'],
-            ];
-    
-            foreach ($clients as $client) {
-              echo '<div class="col-md-4 col-6 client-item">';  // Use col-md-4 for larger screens and col-6 for mobile
-              if ($client['image']) {
-                echo '<img src="images/clients/' . $client['image'] . '" alt="' . $client['name'] . '" class="client-image img-fluid">';
-              }
-              echo '</div>';
-            }
-            ?>
+            <!-- Client 1 -->
+            <div class="col-md-4 col-6 client-item">
+              <img src="images/clients/shikor.png" alt="Shikor" class="client-image img-fluid">
+            </div>
+            <!-- Client 2 -->
+            <div class="col-md-4 col-6 client-item">
+              <img src="images/clients/ullah house.png" alt="Ullah House" class="client-image img-fluid">
+            </div>
+            <!-- Client 3 -->
+            <div class="col-md-4 col-6 client-item">
+              <img src="images/clients/comfort muslims.png" alt="Comfort Muslims" class="client-image img-fluid">
+            </div>
+            <!-- Client 4 -->
+            <div class="col-md-4 col-6 client-item">
+              <img src="images/clients/zaka merchants bd.png" alt="Zaka Merchants BD" class="client-image img-fluid">
+            </div>
+            <!-- Client 5 -->
+            <div class="col-md-4 col-6 client-item">
+              <img src="images/clients/merrono shop.png" alt="Merrono Shop" class="client-image img-fluid">
+            </div>
+            <!-- Client 6 -->
+            <div class="col-md-4 col-6 client-item">
+              <img src="images/clients/green leather.png" alt="Green Leather" class="client-image img-fluid">
+            </div>
+            <!-- Client 7 -->
+            <div class="col-md-4 col-6 client-item">
+              <img src="images/clients/victory trust fashion.jpg" alt="Victory Trust Fashion" class="client-image img-fluid">
+            </div>
+            <!-- Client 8 -->
+            <div class="col-md-4 col-6 client-item">
+              <img src="images/clients/toy and homeware.png" alt="Toy & Homeware" class="client-image img-fluid">
+            </div>
+            <!-- Client 9 -->
+            <div class="col-md-4 col-6 client-item">
+              <img src="images/clients/shakil motors bd.png" alt="Shakil Motors BD" class="client-image img-fluid">
+            </div>
           </div>
         </div>
       </div>
     </section>
+
 
     <section id="services" class="py-5">
       <div class="container">

@@ -335,7 +335,8 @@
   /* Mobile responsiveness */
   @media (max-width: 768px) {
     .hero-section {
-      height: 100vh; /* Adjust height for smaller screens */
+      height: auto; /* Adjust height for smaller screens */
+      padding: 0;
     }
     .hero-logo {
 	    max-width: 100px; /* Adjust size as needed */

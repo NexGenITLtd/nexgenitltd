@@ -152,6 +152,7 @@
         font-size: 16px; /* Font size for paragraphs */
         color: #555;
         line-height: 1.6; /* Improve readability with better line spacing */
+        text-align: justify;
       }
 
       #about img {

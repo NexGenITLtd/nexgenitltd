@@ -327,6 +327,13 @@
     .hero-section {
       height: 60vh; /* Adjust height for smaller screens */
     }
+    .hero-logo {
+	    max-width: 100px; /* Adjust size as needed */
+	    border-radius: 25%; /* Rounded corners */
+	    display: block; /* Ensure it behaves as a block element */
+	    margin: 0 auto; /* Horizontally centers the logo */
+	    z-index: 2; /* Ensure logo stays on top of video */
+	}
     .hero-text {
       font-size: 6vw; /* Adjust font size for smaller screens */
       top: 100%; /* Adjust text position for smaller screens */

@@ -282,7 +282,7 @@
       <div class="container overlay-content">
         <h1>Welcome to NexGen IT Ltd.</h1>
         <p>Your Trusted Partner for Innovative IT Solutions</p>
-        <a href="#services" class="btn btn-outline-light btn-lg">Our Services</a>
+        <a href="#contact" class="btn btn-outline-light btn-lg">Contact Us</a>
       </div>
     </section>
 

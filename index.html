@@ -1,16 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>NexGen IT Ltd.</title>
-  <link rel="icon" href="images/favicon-nexgenit.png" type="image/png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NexGen IT Ltd - Forward-Thinking IT Solutions</title>
+    <meta name="description" content="NexGen IT Ltd provides innovative and reliable IT solutions to businesses worldwide. Discover our broad range of services designed to propel your business forward.">
+    <meta name="keywords" content="IT solutions, IT services, IT consultancy, NexGen IT Ltd, innovative technology, reliable IT, business IT solutions, tech services, UK IT company">
+    <meta name="author" content="NexGen IT Ltd">
+    <meta property="og:title" content="NexGen IT Ltd - Forward-Thinking IT Solutions">
+    <meta property="og:description" content="Explore a wide range of innovative IT services designed to meet the needs of modern businesses.">
+    <meta property="og:image" content="https://example.com/images/nexgen-logo.jpg">
+    <meta property="og:url" content="https://nexgenitltd.com">
+    <meta name="twitter:card" content="images/nexgenit.png">
+    <meta name="twitter:title" content="NexGen IT Ltd - Forward-Thinking IT Solutions">
+    <meta name="twitter:description" content="Providing innovative and reliable IT solutions for businesses worldwide.">
+    <meta name="twitter:image" content="images/nexgenit.png">
+    <link rel="icon" href="images/favicon-nexgenit.png" type="image/png">
 
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-  <!-- Font Awesome CDN -->
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
-  <link href="css/style.css" rel="stylesheet">
-
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome CDN -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
 
@@ -30,9 +41,9 @@
           <li class="nav-item">
             <a class="nav-link" href="#about">About</a>
           </li>
-          <li class="nav-item">
+          <!-- <li class="nav-item">
             <a class="nav-link" href="#clients">Clients</a>
-          </li>
+          </li> -->
           <li class="nav-item">
             <a class="nav-link" href="#services">Services</a>
           </li>
@@ -432,6 +443,7 @@
           <div class="col-md-6">
             <h5>Contact Information</h5>
             <p><strong>Email:</strong> <a href="mailto:nexgenitltd@gmail.com">nexgenitltd@gmail.com</a></p>
+            <p><strong>Email:</strong> <a href="mailto:info@nexgenitltd.com">info@nexgenitltd.com</a></p>
             <p><strong>Phone (UK):</strong> +447421358489</p>
             <p><strong>Phone & WhatsApp (BD):</strong> <a href="https://wa.me/+8801731002123">+8801731002123</a></p>
             <p><strong>Office Address:</strong> Luton Market, LU1 2TA, UK</p>
@@ -481,51 +493,51 @@
         <p>&copy; 2024 NexGen IT Ltd. All Rights Reserved.</p>
       </div>
     </footer>
-<script type="text/javascript">
+  <script type="text/javascript">
 
-  // JavaScript for typing effect
-  const texts = [
-    "Welcome to NexGen IT Ltd.!",
-    "Innovative IT Services for Your Business!",
-    "Transforming the Future with Technology!"
-  ];
+    // JavaScript for typing effect
+    const texts = [
+      "Welcome to NexGen IT Ltd.!",
+      "Innovative IT Services for Your Business!",
+      "Transforming the Future with Technology!"
+    ];
 
-  let textIndex = 0;
-  let charIndex = 0;
-  let currentText = "";
-  let typingSpeed = 100; // Speed of typing in milliseconds
-  let deletingSpeed = 50; // Speed of deleting text
-  let typingInterval;
+    let textIndex = 0;
+    let charIndex = 0;
+    let currentText = "";
+    let typingSpeed = 100; // Speed of typing in milliseconds
+    let deletingSpeed = 50; // Speed of deleting text
+    let typingInterval;
 
-  const heroTextElement = document.getElementById("hero-text");
+    const heroTextElement = document.getElementById("hero-text");
 
-  function typeText() {
-    currentText = texts[textIndex];
-    if (charIndex < currentText.length) {
-      heroTextElement.innerHTML += currentText.charAt(charIndex);
-      charIndex++;
-      typingInterval = setTimeout(typeText, typingSpeed);
-    } else {
-      // Wait before starting to delete the text
-      setTimeout(deleteText, 1000);
+    function typeText() {
+      currentText = texts[textIndex];
+      if (charIndex < currentText.length) {
+        heroTextElement.innerHTML += currentText.charAt(charIndex);
+        charIndex++;
+        typingInterval = setTimeout(typeText, typingSpeed);
+      } else {
+        // Wait before starting to delete the text
+        setTimeout(deleteText, 1000);
+      }
     }
-  }
 
-  function deleteText() {
-    if (charIndex > 0) {
-      heroTextElement.innerHTML = currentText.substring(0, charIndex - 1);
-      charIndex--;
-      typingInterval = setTimeout(deleteText, deletingSpeed);
-    } else {
-      // Move to the next text
-      textIndex = (textIndex + 1) % texts.length;
-      setTimeout(typeText, 500);
+    function deleteText() {
+      if (charIndex > 0) {
+        heroTextElement.innerHTML = currentText.substring(0, charIndex - 1);
+        charIndex--;
+        typingInterval = setTimeout(deleteText, deletingSpeed);
+      } else {
+        // Move to the next text
+        textIndex = (textIndex + 1) % texts.length;
+        setTimeout(typeText, 500);
+      }
     }
-  }
 
-  // Start the typing effect
-  typeText();
-</script>
+    // Start the typing effect
+    typeText();
+  </script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
